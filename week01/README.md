@@ -52,9 +52,24 @@
 
 Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα με χρήση των html tags που προτείνονται):
 
-| Task | Tags |
-|------|------|
-| [απλή σελίδα](./microtasks/01_simple_html.png) | `html, body, head, title, p` |
+| Microtask | Προτεινόμενα HTML Tags |
+|-----------|------------------------|
+| [απλή σελίδα](./microtasks/01_simple_html.png) | `html, head, title, body, p` |
+| [μορφοποίηση κειμένου](./microtasks/02_text_formatting.png) | `html, body, p, strong, sub, u, br, hr`
+| [μορφοποίηση επικεφαλίδων](./microtasks/03_text_headings.png) | `html, body, h1, h2, h3, h4, h5, h6`
+| [απλή λίστα](./microtasks/04_unordered_lists.png) | `html, body, ul, li`
+| [ταξινομημένη λίστα](./microtasks/05_ordered_lists.png) | `html, body, ol, li`
+| [λίστα ορισμών](./microtasks/06_definition_lists.png) | `html, body, dl, dd, dt`
+| [εμφωλευμένες λίστες](./microtasks/07_nested_lists.png) | `html, body, ul, li`
+| [σύνδεσμοι](./microtasks/08_linking.png) | `html, body, h2, a`
+| [εικόνες](./microtasks/09_images.png) | `html, body, img`
+| [απλός πίνακας](./microtasks/10_simple_tables.png) | `html, body, caption, table, tr, th, td, h1`
+| [σύνθετος πίκανας](./microtasks/11_complex_table.png) | `html, body, caption, table, tr, th, td, h1`
+| [πιο σύνθετος πίκανας](./microtasks/12_complex_table_2.png) | `html, body, caption, table, tr, th, td, h1`
+| [div](./microtasks/13_div.png) | `html, body, div, h4, p`
+| [απλή φόρμα](./microtasks/14_simple_form.png) | `html, body, form, input`
+| [φόρμα με πεδίο κειμένου](./microtasks/15_simple_form_2.png) | `html, body, form, input, textarea`
+| [φόρμα με κλειστές επιλογές](./microtasks/16_simple_form_3.png) | `html, body, form, input, option, select, br`
 
 
 ### Task εβδομάδας
