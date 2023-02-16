@@ -50,23 +50,12 @@
 
 ### Microtasks εργαστηρίου
 
-Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα:
+Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα με χρήση των html tags που προτείνονται):
 
-<div style="background-color: #EBEBEB; width=100%; min-height:500px;">
-<div style="margin: 5px; width: 220px; border:1px solid #333; float:left; text-align:center; padding:5px;" >
-    <a href="./microtasks/01_simple_html.png" target="_blank"><img src="./microtasks/01_simple_html.png" width="200" border="1"/></a>
-    <p style="font-family:Consolas; font-size: 9pt">html, body, head, title, p</p>
-</div>
-<div style="margin: 5px; width: 220px; border:1px solid #333; float:left; text-align:center; padding:5px;" >
-    <img src="./microtasks/01_simple_html.png" width="200" border="1"/>
-    <p style="font-family:Consolas; font-size: 9pt">html, body, head, title, p</p>
-</div>
-<div style="margin: 5px; width: 220px; border:1px solid #333; float:left; text-align:center; padding:5px;" >
-    <img src="./microtasks/01_simple_html.png" width="200" border="1"/>
-    <p style="font-family:Consolas; font-size: 9pt">html, body, head, title, p</p>
-</div>
+| Task | Tags |
+|------|------|
+| [απλή σελίδα](./microtasks/01_simple_html.png) | `html, body, head, title, p` |
 
-</div>
 
 ### Task εβδομάδας
 
