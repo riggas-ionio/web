@@ -48,6 +48,28 @@
 
 ![Goorm running url and port](Goorm-run.gif)
 
+### Microtasks εργαστηρίου
+
+Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα:
+
+<div style="background-color: #EBEBEB; width=100%; min-height:500px;">
+<div style="margin: 5px; width: 220px; border:1px solid #333; float:left; text-align:center; padding:5px;" >
+    <a href="./microtasks/01_simple_html.png" target="_blank"><img src="./microtasks/01_simple_html.png" width="200" border="1"/></a>
+    <p style="font-family:Consolas; font-size: 9pt">html, body, head, title, p</p>
+</div>
+<div style="margin: 5px; width: 220px; border:1px solid #333; float:left; text-align:center; padding:5px;" >
+    <img src="./microtasks/01_simple_html.png" width="200" border="1"/>
+    <p style="font-family:Consolas; font-size: 9pt">html, body, head, title, p</p>
+</div>
+<div style="margin: 5px; width: 220px; border:1px solid #333; float:left; text-align:center; padding:5px;" >
+    <img src="./microtasks/01_simple_html.png" width="200" border="1"/>
+    <p style="font-family:Consolas; font-size: 9pt">html, body, head, title, p</p>
+</div>
+
+</div>
+
 ### Task εβδομάδας
 
-Δημιουργήστε το βιογραφικό σας με έκδοση html και με όνομα αρχείου cv.html, αξιοποιώντας διάφορα επίπεδα heading, παραγράφους, λίστες (αριθμημένες και μη), συνδέσμους και μία τουλάχιστον εικόνα (_μη χρησιμοποιήσετε την πραγματική φώτο σας_). Εκτελέστε τον εξυπηρετητή ιστοσελίδων (εντολή php πιο πάνω) και προσπελάστε το βιογραφικό σας από ένα άλλο γειτονικό υπολογιστή και το κινητό σας τηλέφωνο. 
+Δημιουργήστε το βιογραφικό σας με έκδοση html και με όνομα αρχείου cv.html, αξιοποιώντας διάφορα επίπεδα heading, παραγράφους, λίστες (αριθμημένες και μη), συνδέσμους και μία τουλάχιστον εικόνα (_μη χρησιμοποιήσετε την πραγματική φώτο σας_). Εκτελέστε τον εξυπηρετητή ιστοσελίδων (εντολή php πιο πάνω) και προσπελάστε το βιογραφικό σας από ένα άλλο γειτονικό υπολογιστή και το κινητό σας τηλέφωνο.
+
+**_Help:_** https://repository.kallipos.gr/handle/11419/1773?&locale=el
