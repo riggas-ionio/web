@@ -55,7 +55,7 @@
 | Microtask | Προτεινόμενα HTML Tags |
 |-----------|------------------------|
 | [απλή σελίδα](./microtasks/01_simple_html.png) | `html, head, title, body, p` |
-| [μορφοποίηση κειμένου](./microtasks/02_text_formatting.png) | `html, body, p, strong, sub, u, br, hr`
+| [μορφοποίηση κειμένου](./microtasks/02_text_formatting.png) | `html, body, p, strong, sub, u, br, hr, del`
 | [μορφοποίηση επικεφαλίδων](./microtasks/03_text_headings.png) | `html, body, h1, h2, h3, h4, h5, h6`
 | [απλή λίστα](./microtasks/04_unordered_lists.png) | `html, body, ul, li`
 | [ταξινομημένη λίστα](./microtasks/05_ordered_lists.png) | `html, body, ol, li`
