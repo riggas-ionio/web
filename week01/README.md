@@ -52,7 +52,6 @@
 
 Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα με χρήση των html tags που προτείνονται):
 
-**Microtask**
 1. [απλή σελίδα](./microtasks/01_simple_html.png)  
   `html, head, title, body, p`
 0. [μορφοποίηση κειμένου](./microtasks/02_text_formatting.png)  
