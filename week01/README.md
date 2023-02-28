@@ -50,7 +50,7 @@
 
 ### Microtasks εργαστηρίου
 
-Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα με χρήση των html tags που προτείνονται):
+Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα με χρήση των html tags που προτείνονται:
 
 1. [απλή σελίδα](./microtasks/01_simple_html.png)  
   `html, head, title, body, p`
@@ -114,5 +114,7 @@
 **_Help:_**
 * Εργαστηριακές ασκήσεις δικτύων Η/Υ, **Εισαγωγή στην HTML**, Κωνσταντίνος Χειλάς, Αλέξανδρος Βακαλούδης, Αναστάσιος Πολίτης  
   https://repository.kallipos.gr/handle/11419/1773?&locale=el
+* HTML basics από από Mozilla MDN  
+  https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 * HTML Cheatsheet από stanford.edu
  https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
