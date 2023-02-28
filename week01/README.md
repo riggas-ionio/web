@@ -52,33 +52,61 @@
 
 Δημιουργήστε, με κώδικα html, σελίδες που παράγουν το ακόλουθο οπτικό αποτέλεσμα με χρήση των html tags που προτείνονται):
 
-| Microtask | Προτεινόμενα HTML Tags |
-|-----------|------------------------|
-| [απλή λίστα](./microtasks/04_unordered_lists.png) | `html, body, ul, li`
-| [ταξινομημένη λίστα](./microtasks/05_ordered_lists.png) | `html, body, ol, li`
-| [λίστα ορισμών](./microtasks/06_definition_lists.png) | `html, body, dl, dd, dt`
-| [εμφωλευμένες λίστες](./microtasks/07_nested_lists.png) | `html, body, ul, li`
-| [σύνδεσμοι](./microtasks/08_linking.png) | `html, body, h2, a`
-| [εικόνες](./microtasks/09_images.png) | `html, body, img`
-| [απλός πίνακας](./microtasks/10_simple_tables.png) | `html, body, caption, table, tr, th, td, h1`
-| [σύνθετος πίκανας](./microtasks/11_complex_table.png) | `html, body, caption, table, tr, th, td, h1`
-| [πιο σύνθετος πίκανας](./microtasks/12_complex_table_2.png) | `html, body, caption, table, tr, th, td, h1`
-| [div](./microtasks/13_div.png) | `html, body, div, h4, p`
-| [απλή φόρμα](./microtasks/14_simple_form.png) | `html, body, form, input`
-| [φόρμα με πεδίο κειμένου](./microtasks/15_simple_form_2.png) | `html, body, form, input, textarea`
-| [φόρμα με κλειστές επιλογές](./microtasks/16_simple_form_3.png) | `html, body, form, input, option, select, br`
-
 **Microtask**
-* [απλή σελίδα](./microtasks/01_simple_html.png)  
+1. [απλή σελίδα](./microtasks/01_simple_html.png)  
   `html, head, title, body, p`
-* [μορφοποίηση κειμένου](./microtasks/02_text_formatting.png)  
+0. [μορφοποίηση κειμένου](./microtasks/02_text_formatting.png)  
   `html, body, p, strong, sub, sup, u, br, hr, del`
-* [μορφοποίηση επικεφαλίδων](./microtasks/03_text_headings.png)  
+0. [μορφοποίηση επικεφαλίδων](./microtasks/03_text_headings.png)  
   `html, body, h1, h2, h3, h4, h5, h6`
     <details>
-      <summary>Help</summary>
+      <summary>help..</summary>
       <i>αναζητήστε το attribute <code>align</code> που μπορεί να λάβει ένα <code>h</code> tag</i>
     </details>
+0. [απλή λίστα](./microtasks/04_unordered_lists.png)    
+  `html, body, ul, li`
+  <details>
+    <summary>help..</summary>
+    <i>αναζητήστε το attribute <code>type</code> που μπορεί να λάβει ένα <code>li</code> tag και το οποίο δέχεται τιμες <code>1|a|A|i|I|disc|circle|square</code></i>
+  </details>
+0. [ταξινομημένη λίστα](./microtasks/05_ordered_lists.png)  
+  `html, body, ol, li`
+0. [λίστα ορισμών](./microtasks/06_definition_lists.png)  
+  `html, body, dl, dd, dt`
+0. [εμφωλευμένες λίστες](./microtasks/07_nested_lists.png)  
+  `html, body, ul, li`
+0. [σύνδεσμοι](./microtasks/08_linking.png)  
+  `html, body, h2, a`
+  <details>
+    <summary>help..</summary>
+    <i>αναζητήστε το attribute <code>href</code> που μπορεί να λάβει ένα <code>a</code> tag
+  </details>
+0. [εικόνες](./microtasks/09_images.png)  
+  `html, body, img`  
+  <details>
+    <summary>help..</summary>
+    <i>αναζητήστε τα attributes <code>src, width, height</code> που μπορεί να λάβει ένα <code>img</code> tag
+  </details>
+0. [απλός πίνακας](./microtasks/10_simple_tables.png)  
+  `html, body, h1, caption, table, tr, th, td`
+0. [σύνθετος πίκανας](./microtasks/11_complex_table.png)  
+  `html, body, h1, caption, table, tr, th, td`
+  <details>
+    <summary>help..</summary>
+    <i>αναζητήστε τα attributes <code>colspan, rowspan</code> που μπορεί να λάβει ένα <code>th ή td</code> tag
+  </details>
+0. [πιο σύνθετος πίκανας](./microtasks/12_complex_table_2.png)   
+  `html, body, caption, table, tr, th, td, h1`
+0. [απλή φόρμα](./microtasks/14_simple_form.png)  
+  `html, body, form, input`
+  <details>
+    <summary>help..</summary>
+    <i>αναζητήστε τα attributes <code>name, type, value</code> που μπορεί να λάβει ένα <code>input</code> tag
+  </details>
+0. [φόρμα με πεδίο κειμένου](./microtasks/15_simple_form_2.png)  
+  `html, body, form, input, textarea`
+0. [φόρμα με κλειστές επιλογές](./microtasks/16_simple_form_3.png)  
+  `html, body, form, input, select, option`
 
 ### Task εβδομάδας
 
