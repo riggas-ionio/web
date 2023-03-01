@@ -64,11 +64,13 @@
   html tags: `html, head, meta, style, body, h1, h2, p`  
   css attributes: `margin`  
   Επιθυμητά περιθώρια:  
-  | Tag | Πάνω | Κάτω | Αριστερά | Δεξιά |
-  |-----|-----:|-----:|---------:|------:|
-  | `h1`| 10px | 40px |     50px |  50px |
-  | `h2`|  5px | 20px |     50px |  50px |
-  | `p` |  0px | 10px |     20px |  20px |
+
+| Tag | Πάνω | Κάτω | Αριστερά | Δεξιά |
+|-----|-----:|-----:|---------:|------:|
+| `h1`| 10px | 40px |     50px |  50px |
+| `h2`|  5px | 20px |     50px |  50px |
+| `p` |  0px | 10px |     20px |  20px |
+
 0. [μορφοποίηση εξωτερικών περιθωρίων (padding)](./microtasks/05_padding.png)  
   html tags: `html, head, meta, style, body, h1, h2, p`  
   css attributes: `padding`  
