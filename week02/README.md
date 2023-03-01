@@ -71,16 +71,18 @@
 | `h2`|  5px | 20px |     50px |  50px |
 | `p` |  0px | 10px |     20px |  20px |
 
-0. [μορφοποίηση εξωτερικών περιθωρίων (padding)](./microtasks/05_padding.png)  
+5. [μορφοποίηση εξωτερικών περιθωρίων (padding)](./microtasks/05_padding.png)  
   html tags: `html, head, meta, style, body, h1, h2, p`  
   css attributes: `padding`  
   Επιθυμητά περιθώρια:  
-  | Tag | Πάνω | Κάτω | Αριστερά | Δεξιά |
-  |-----|-----:|-----:|---------:|------:|
-  | `h1`| 10px | 10px |     25px |  25px |
-  | `h2`|  5px |  5px |     10px |  10px |
-  | `p` |  5px |  5px |      5px |   5px |
-0. [μορφοποίηση πλάτους και ύψους](./microtasks/06_width.png)  
+
+| Tag | Πάνω | Κάτω | Αριστερά | Δεξιά |
+|-----|-----:|-----:|---------:|------:|
+| `h1`| 10px | 10px |     25px |  25px |
+| `h2`|  5px |  5px |     10px |  10px |
+| `p` |  5px |  5px |      5px |   5px |
+
+6. [μορφοποίηση πλάτους και ύψους](./microtasks/06_width.png)  
   html tags: `html, head, meta, style, body, h1, h2, p, div`  
   css attributes: `width, height`
 0. [μορφοποίηση κειμένου](./microtasks/07_text.png)  
