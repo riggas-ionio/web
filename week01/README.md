@@ -76,32 +76,40 @@
   `html, body, ul, li`
 0. [σύνδεσμοι](./microtasks/08_linking.png)  
   `html, body, h2, a`
-  <details>
+
+    <details>
     <summary>help..</summary>
     <i>αναζητήστε το attribute <code>href</code> που μπορεί να λάβει ένα <code>a</code> tag
-  </details>
+    </details>
+
 0. [εικόνες](./microtasks/09_images.png)  
   `html, body, img`  
-  <details>
+
+    <details>
     <summary>help..</summary>
     <i>αναζητήστε τα attributes <code>src, width, height</code> που μπορεί να λάβει ένα <code>img</code> tag
-  </details>
+    </details>
+
 0. [απλός πίνακας](./microtasks/10_simple_tables.png)  
   `html, body, h1, caption, table, tr, th, td`
 0. [σύνθετος πίκανας](./microtasks/11_complex_table.png)  
   `html, body, h1, caption, table, tr, th, td`
-  <details>
+
+    <details>
     <summary>help..</summary>
     <i>αναζητήστε τα attributes <code>colspan, rowspan</code> που μπορεί να λάβει ένα <code>th ή td</code> tag
-  </details>
+    </details>
+
 0. [πιο σύνθετος πίκανας](./microtasks/12_complex_table_2.png)   
   `html, body, caption, table, tr, th, td, h1`
 0. [απλή φόρμα](./microtasks/14_simple_form.png)  
   `html, body, form, input`
-  <details>
+
+    <details>
     <summary>help..</summary>
     <i>αναζητήστε τα attributes <code>name, type, value</code> που μπορεί να λάβει ένα <code>input</code> tag
-  </details>
+    </details>
+
 0. [φόρμα με πεδίο κειμένου](./microtasks/15_simple_form_2.png)  
   `html, body, form, input, textarea`
 0. [φόρμα με κλειστές επιλογές](./microtasks/16_simple_form_3.png)  
