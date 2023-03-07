@@ -85,11 +85,15 @@
     * Κάθε bullet, αναλόγως της σειράς του, να μορφοποιηθεί με font size από `1.5em` μέχρι `0.95em`
     * Οι progress bars να υλοποιηθούν με κατάλληλη μορφοποίηση `inline-block` `div`
 
-0. [μορφοποίηση κειμένου](./microtasks/03_styled_lists.png)  
+0. [μορφοποίηση κειμένου](./microtasks/04_styled_text.png)  
     html tags: `html, head, meta, style, body, p, dl, dt, dd`  
     css attributes: `font-family, font-size, color, background-color, padding, margin, float, position`  
     selectors: class-based, attribute-based, attribute-value-based, pseudo (`:first-child, :last-of-type, :first-letter`), element within element   
-
+    ___Προδιαγραφές:___  
+    * Οι προγραμματιστικές αρχές να οριστούν σε μια definition list όπου το ακρωνύμιο του κανόνα θα είναι το περιεχόμενο του στοιχείου `dt` και το στοιχείο `dd` θα περιέχει δύο `p`, το πρώτο θα αναπτύσσει το ακρωνύμιο και το δεύτερο θα το επεξηγεί
+    * Με χρήση css το πρώτο γράμμα του ακρωνύμιου να μορφοποιηθεί όπως στην εικόνα
+    * Με χρήση css να διαφοροποιηθεί η μορφοποίηση των δύο `p` εντός του στοιχείο `dd`, όπως στην εικόνα
+    * Με χρήση css να μορφοποιηθεί η τελευταία παράγραφος (`p`) του `body` μόνο, όπως στην εικόνα, ώστε να εμφανίζεται η παραπομπή της πηγής
 
 **_Help:_**
 * Εργαστηριακές ασκήσεις δικτύων Η/Υ, **HTML και CSS**, Κωνσταντίνος Χειλάς, Αλέξανδρος Βακαλούδης, Αναστάσιος Πολίτης  
