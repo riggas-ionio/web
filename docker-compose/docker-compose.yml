@@ -1,0 +1,35 @@
+version: '3.5'
+services:
+  mysql:
+    image: mysql:8.0.28
+    container_name: di_inter_tech_mysql
+    environment:
+      - MYSQL_HOST=
+      - MYSQL_DATABASE=di_internet_technologies_project
+      - MYSQL_USER=webuser
+      - MYSQL_PASSWORD=webpass
+      - MYSQL_ROOT_PASSWORD=rootpass
+      - TZ=EEST
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - ./mysql-init:/docker-entrypoint-initdb.d/:ro
+    networks:
+      - di_internet_technologies_network
+
+  php-apache:
+    build: ./
+    container_name: di_inter_tech_php
+    ports:
+      - "8080:80"
+    volumes:
+      - ./php:/var/www/html
+    depends_on:
+      - mysql
+    networks:
+      - di_internet_technologies_network
+
+networks:
+  di_internet_technologies_network:
+    name: di_internet_technologies_network
+    driver: bridge
