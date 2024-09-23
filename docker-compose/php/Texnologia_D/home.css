@@ -1,0 +1,168 @@
+/* Basic styling for the page layout */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0; /* Remove padding from body */
+}
+
+.navbar {
+    background-color: #dadada; /* Navbar background color */
+    width: 100%; /* Full width */
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it stays above other content */
+    text-align: center; /* Center the navbar content */
+    border-bottom: 2px solid #000000; /* Add a straight line at the bottom */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: inline-flex; /* Center the items */
+    gap: 15px; /* Space between items */
+}
+
+.navbar a {
+    color: rgb(0, 0, 0); /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    padding: 10px 15px; /* Add padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+header {
+    text-align: left;
+    margin-top: 60px; /* Add margin to prevent overlap with navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Added padding for header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #000000;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 800px;
+}
+
+/* Links styling */
+.btn, .edit-button, .view-button, .create-button {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Accordion Styles */
+.accordion {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #000000;
+}
+
+.accordion-title {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-title:hover {
+    background-color: #e9e9e9;
+}
+
+.accordion-title h2 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 10px;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 100px;
+    padding: 10px; /* To padding einai gia to keno otan pataw sto accordeon gia to content */
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff; /* Change text color to white in dark mode */
+}
+
+body.dark-mode .navbar {
+    background-color: #2b2b2b; /* Navbar background color in dark mode */
+    border-bottom: 2px solid #ffffff; /* Add a straight line at the bottom */
+
+}
+
+body.dark-mode .navbar a {
+    color: #dadada; /* Grey color for buttons in dark mode */
+}
+
+.accordion-item.dark-mode,
+.container.dark-mode {
+    border-color: #000000; /* Xrwma katw grammhs section 1,2,3 */
+}
+
+.accordion-title.dark-mode {
+    background-color: #2b2b2b; /* Accordion title background */
+}
+
+.accordion-title:hover.dark-mode {
+    background-color: #4e4e4e; /* Slight hover effect for dark mode */
+}
+
+.accordion-content.dark-mode {
+    background-color: #121212; /* Ensures that content inside the accordion matches the dark mode */
+}
+
+body.dark-mode .accordion-title h2 {
+    color: #dadada;
+}
+
+body.dark-mode header h1 {
+    color: #dadada; /* Change to white in dark mode */
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Additional styles for button hover effects */
+.edit-button:hover,
+.view-button:hover,
+.create-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}

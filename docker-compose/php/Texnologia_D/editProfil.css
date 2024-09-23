@@ -1,0 +1,102 @@
+/* Import Comfortaa font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Light background color */
+    color: #000; /* Text color */
+    margin: 0;
+    padding-top: 0px; /* Push content a bit lower */
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.profile-container {
+    text-align: left; 
+}
+
+h1 {
+    margin: 0 0 60px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 5px; /* Add some space between the label and p */
+}
+
+p {
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin: 0; /* No margin for p element */
+    color: #000000;
+    width: 100%;
+    max-width: 300px;
+    text-align: left; /* Center the text */
+    margin-bottom: 20px; /* Space between fields */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 80px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+/* Dark mode (optional) */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+h1.dark-mode {
+    color: #dadada; /* White header in dark mode */
+}
+
+label.dark-mode {
+    color: #dadada;
+}
+
+p.dark-mode {
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #1a1919;
+    /* Dark background for input */
+    color: #dadada;
+    /* White text color in dark mode */
+    border: 1px solid #252525;
+    /* Border color for dark mode */
+    border-radius: 5px;
+    margin: 0; /* No margin for p element */
+    width: 100%;
+    max-width: 300px;
+    text-align: left; /* Center the text */
+    margin-bottom: 20px; /* Space between fields */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.986); /* Light shadow */
+}

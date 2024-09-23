@@ -1,0 +1,111 @@
+/* Import Comfortaa font from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+    color: #000;
+    /* Default text color */
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    font-size: 2.2rem;
+
+}
+
+label {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    font-size: 1.3rem;
+
+}
+
+input {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    /* Ensure text color is black in light mode */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Dark mode styles */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+
+
+h1.dark-mode {
+    color: #dadada;
+}
+
+label.dark-mode {
+    color: #dadada;
+}
+
+input.dark-mode {
+    background-color: #2b2b2b;
+    border: 1px solid #646464;
+    color: #dadada;
+    /* Ensure text color is white in dark mode */
+}
+.error-message {
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+  }
+  
+
+button.dark-mode {
+    background-color: #2d53ff;
+}
+
+button.dark-mode:hover {
+    background-color: #0400ff;
+}
