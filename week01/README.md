@@ -2,32 +2,19 @@
 
 ### Περιβάλλον εργασίας
 
-Σκοπός του πρώτου εργαστηρίου είναι η εγκατάσταση ενός περιβάλλοντος εργασίας το οποίο θα επιτρέπει την συγγραφή κώδικα και την προβολή του μέσω του Διαδικτύου από ένα public και live url.
+Σκοπός του πρώτου εργαστηρίου είναι η εγκατάσταση ενός βασικού περιβάλλοντος εργασίας και η εξοικείωση με αυτό, ώστε να μπορείτε να γράφετε κώδικα και να τον προσπελαύνετε μέσω ενός browser.
 
-Για το σκοπό αυτό, ως μια εύχρηστη λύση, προτείνεται να κάνετε δωρεάν εγγραφή στο https://ide.goorm.io .
-Στη δωρεάν έκδοση το goorm IDE σας παρέχει τη δυνατότητα να στήσετε έως 5 ανεξάρτητους private containers, διαλέγοντας από ποικίλα έτοιμα stacks λογισμικού. Για το μάθημα αυτό θα αξιοποιήσουμε ένα `php` based stack.
+Για το σκοπό αυτό, ως μια εύχρηστη λύση, προτείνεται να χρησιμοποιήσετε το προγραμματιστικό περιβάλλον VSCode και τα extensions `Live server` και `HTMLHint`.  
+Αργότερα θα κάνουμε χρήση php και mysql, είτε απ' ευθείας στο μηχάνημά σας ή μέσω docker. 
 
-Μετά την εγγραφή σας στο ide.goorm.io ακολουθήστε τις πιο κάτω οδηγίες για να δημιουργήσετε ένα container με τα εξής χαρακτηριστικά:
-* Name: `My_web_container`
-* Region: `Frankfurt` για σχετικά χαμηλό latency σε σχέση με πιο απομακρυσμένους.
-* **Visibility**: `Private`
-* Template: `Default Template`
-* Deployment: `Not used`
-* **Stack**: `PHP`
-    * Template & OS τα αφήνετε ως έχουν
-* Additional module/package:
-    * [X] Install MySQL
-    * [X] Enable mysql-ctl command
-    * [ ] Install MongoDB
-
-![Create a web container](Goorm-web-container-setup.gif)
-
+![VSCode extensions](./VSCode-Extensions.gif) 
 
 ### Δημιουργία HTML κώδικα
 
-Ο container που δημιουργήσατε περιέχει ένα `index.php` αρχείο. Σβύστε το, με php θα δουλέψουμε σε επόμενη εβδομάδα.
+Δημιουργήστε το πρώτο `html` αρχείο σας.  
+Δημιουργήστε ένα φάκελο στον οποίο θα δουλέυετε όλο τον κώδικα του εργαστηρίου, σε ένα υποφάκελο κάθε εβδομάδα. 
 
-Δημιουργήστε ένα νέο αρχείο `index.html` με περιεχόμενο:
+Δημιουργήστε ένα νέο αρχείο `week01/index.html` με περιεχόμενο:
 ```
 <html>
 <head>
@@ -44,9 +31,12 @@
 
 ### Serving HTML κώδικα
 
-Για να έχετε πρόσβαση μέσω ενός web browser στις ιστοσελίδες που δημιουργείτε εκτελέστε είτε από το UI του Goorm την επιλογή `new run php` (_ναι, php παρότι δουλεύουμε σε html_) ή από το terminal εκτελείτε `php -S 0.0.0.0:80 -t /workspace/My_web_container` (_εφόσον ονομάσατε `My_web_container`_ τον container σας). Το περιεχόμενό σας είνια διαθέσιμο στο URL που βρίσκεται στο μενού `PROJECT` `>` `Running URL and Port`.
+Για να έχετε πρόσβαση μέσω ενός web browser στις ιστοσελίδες που δημιουργείτε εκτελέστε από το VSCode `Δεξί κλικ`+`Open with Live server`.  
+![VSCode Live server](./VSCode-Live-server.png) 
 
-![Goorm running url and port](Goorm-run.gif)
+Εναλλακτικά, αν στο σύστημά σας υπάρχει εγκατεστημένη python3 μπορείτε να τρέξετε ένα τοπικό http server, με την εντολή `python3 -m http.server` (εκτελεσμένη στο φάκελο που βρίσκονται και τα html αρχεία σας) και να δείτε τις σελίδες σας στο `localhost` (και το port που έχει ξεκινήσει ο http server).
+![Python http server](./VSCode-python-http-server.png) 
+
 
 ### Microtasks εργαστηρίου
 
