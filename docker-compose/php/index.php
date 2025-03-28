@@ -1,6 +1,6 @@
 <?php
 // Database connection parameters
-$servername = "di_inter_tech_mysql"; // Change this to your database server name if necessary
+$servername = "di_inter_tech_2025_mysql"; // Change this to your database server name if necessary
 $username = "webuser"; // Change this to your database username
 $password = "webpass"; // Change this to your database password
 $dbname = "di_internet_technologies_project"; // Change this to your database name

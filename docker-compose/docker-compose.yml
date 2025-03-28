@@ -1,8 +1,32 @@
-version: '3.5'
+version: '3.8'
+
 services:
-  mysql:
+  web:
+    build: ./
+    container_name: di_inter_tech_2025_php
+    volumes:
+      - ./php:/var/www/html
+    ports:
+      - "8080:80"
+    depends_on:
+      - composer
+      - db
+    networks:
+      - di_internet_technologies_network
+
+  composer:
+    image: composer:latest
+    platform: linux/amd64    
+    container_name: di_inter_tech_2025_composer
+    volumes:
+      - ./php:/app
+    working_dir: /app
+    command: ["composer", "install"]
+
+  db:
     image: mysql:8.0.28
-    container_name: di_inter_tech_mysql
+    platform: linux/amd64    
+    container_name: di_inter_tech_2025_mysql
     environment:
       - MYSQL_HOST=
       - MYSQL_DATABASE=di_internet_technologies_project
@@ -10,22 +34,11 @@ services:
       - MYSQL_PASSWORD=webpass
       - MYSQL_ROOT_PASSWORD=rootpass
       - TZ=EEST
-    ports:
-      - "127.0.0.1:3306:3306"
     volumes:
       - ./mysql-init:/docker-entrypoint-initdb.d/:ro
-    networks:
-      - di_internet_technologies_network
-
-  php-apache:
-    build: ./
-    container_name: di_inter_tech_php
+      - ./mysql-data:/var/lib/mysql
     ports:
-      - "8080:80"
-    volumes:
-      - ./php:/var/www/html
-    depends_on:
-      - mysql
+      - "127.0.0.1:33306:3306"
     networks:
       - di_internet_technologies_network
 
