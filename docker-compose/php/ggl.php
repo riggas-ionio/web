@@ -22,22 +22,35 @@ if (isset($_GET['code'])) {
     header('Location: ' . filter_var($client->getRedirectUri(), FILTER_SANITIZE_URL));
 }
 
-if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
-    $client->setAccessToken($_SESSION['access_token']);
-    $youtube = new Google_Service_YouTube($client);
+try {
 
-    // Search for videos
-    $query = 'Departement of Informatics, Ionian University';
-    $searchResponse = $youtube->search->listSearch('snippet', array(
-        'q' => $query,
-        'maxResults' => 10,
-    ));
+    if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
+        $client->setAccessToken($_SESSION['access_token']);
+        $youtube = new Google_Service_YouTube($client);
 
-    foreach ($searchResponse['items'] as $searchResult) {
-        echo sprintf('<p>%s (Watch on YT: <a href="https://youtu.be/%s" target="_blank">https://youtu.be/%s</a>)</p>', $searchResult['snippet']['title'], $searchResult['id']['videoId'], $searchResult['id']['videoId']);
+        // Search for videos
+        $query = 'Departement of Informatics, Ionian University';
+        $searchResponse = $youtube->search->listSearch('snippet', array(
+            'q' => $query,
+            'maxResults' => 10,
+        ));
+
+        foreach ($searchResponse['items'] as $searchResult) {
+            echo sprintf('<p>%s (Watch on YT: <a href="https://youtu.be/%s" target="_blank">https://youtu.be/%s</a>)</p>', $searchResult['snippet']['title'], $searchResult['id']['videoId'], $searchResult['id']['videoId']);
+        }
+    } else {
+        $authUrl = $client->createAuthUrl();
+        echo '<a href="' . $authUrl . '">Authenticate with YouTube</a>';
+        exit();
     }
-} else {
-    $authUrl = $client->createAuthUrl();
-    echo '<a href="' . $authUrl . '">Authenticate with YouTube</a>';
-}
+} catch (Google\Service\Exception $e) {
+    if ($e->getCode() == 401) {
+        // Redirect to login page
+        $authUrl = $client->createAuthUrl();
+        header('Location: ' . $authUrl );
+        exit();
+    } else {
+        // Handle other exceptions
+        echo 'An error occurred: ' . $e->getMessage();
+    }    
 ?>
