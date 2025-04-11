@@ -53,4 +53,5 @@ try {
         // Handle other exceptions
         echo 'An error occurred: ' . $e->getMessage();
     }    
+}
 ?>
